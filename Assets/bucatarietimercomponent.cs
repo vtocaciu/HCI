@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
-public class timercomponent : MonoBehaviour
+public class bucatarietimercomponent : MonoBehaviour
 {
+
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(DelayLoadScene(10));
+        StartCoroutine(DelayLoadScene(12));
     }
 
     public IEnumerator DelayLoadScene(float seconds)
@@ -21,7 +21,7 @@ public class timercomponent : MonoBehaviour
             yield return new WaitForSeconds(1);
         } while (--secondsLeft > 0);
 
-        SceneManager.LoadScene("BucatarieScene");
+        SceneManager.LoadScene("BucatarGame");
     }
 
     // Update is called once per frame

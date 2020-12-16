@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/BucatarScene.unity
     guid: b8806ab408bad3e47aefe47fa5ccaff0
   - enabled: 1
-    path: Assets/Scenes/New Scene.unity
+    path: Assets/Scenes/BucatarieScene.unity
     guid: 3f39dadaaa4a8b64a9721dbec1ddf717
+  - enabled: 1
+    path: Assets/Scenes/BucatarGame.unity
+    guid: fb630ccd39f19644ea3ff36177c7484e
   m_configObjects: {}
