@@ -3,16 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
-public class BucatarGoodAnswer : MonoBehaviour
+public class doctortimer : MonoBehaviour
 {
-    public AudioSource myFx;
-    public AudioClip clickFx;
-
-    public void ClickSound()
+    // Start is called before the first frame update
+    void Start()
     {
-        myFx.PlayOneShot(clickFx);
-        StartCoroutine(DelayLoadScene(4));
+        StartCoroutine(DelayLoadScene(7));
     }
 
     public IEnumerator DelayLoadScene(float seconds)
@@ -23,7 +19,12 @@ public class BucatarGoodAnswer : MonoBehaviour
             yield return new WaitForSeconds(1);
         } while (--secondsLeft > 0);
 
-        SceneManager.LoadScene("ChoosePompierGame");
+        SceneManager.LoadScene("SpitalScene");
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
 
     }
 }

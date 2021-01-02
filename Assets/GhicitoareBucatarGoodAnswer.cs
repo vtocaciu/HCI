@@ -1,10 +1,11 @@
-﻿using System.Collections;
+﻿
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-public class BucatarGoodAnswer : MonoBehaviour
+public class GhicitoareBucatarGoodAnswer : MonoBehaviour
 {
     public AudioSource myFx;
     public AudioClip clickFx;
@@ -23,7 +24,7 @@ public class BucatarGoodAnswer : MonoBehaviour
             yield return new WaitForSeconds(1);
         } while (--secondsLeft > 0);
 
-        SceneManager.LoadScene("ChoosePompierGame");
+        SceneManager.LoadScene("ChooseBucatarGame");
 
     }
 }

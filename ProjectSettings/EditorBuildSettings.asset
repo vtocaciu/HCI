@@ -15,6 +15,36 @@ EditorBuildSettings:
     path: Assets/Scenes/BucatarieScene.unity
     guid: 3f39dadaaa4a8b64a9721dbec1ddf717
   - enabled: 1
+    path: Assets/Scenes/PolitistScene.unity
+    guid: d882c537f9d66224dbbb7c33d043ce57
+  - enabled: 1
+    path: Assets/Scenes/SectiePolitieScene.unity
+    guid: b91dfba0f3d732b439bc3600c11d6fef
+  - enabled: 1
+    path: Assets/Scenes/DoctorScene.unity
+    guid: 564048363428e90448be3dc827f0fc6d
+  - enabled: 1
+    path: Assets/Scenes/SpitalScene.unity
+    guid: d96b30f6cfa831f44b75d9c71be44b2c
+  - enabled: 1
     path: Assets/Scenes/BucatarGame.unity
     guid: fb630ccd39f19644ea3ff36177c7484e
+  - enabled: 1
+    path: Assets/Scenes/ChoosePompierGame.unity
+    guid: 6965cd9f096ee1546a01f628e4dbcf0e
+  - enabled: 1
+    path: Assets/Scenes/ChooseBucatarGame.unity
+    guid: 1a066a8279de9034c9709a1f14528719
+  - enabled: 1
+    path: Assets/Scenes/PompierGame.unity
+    guid: 0ec57684ee528e1418899945a0837c74
+  - enabled: 1
+    path: Assets/Scenes/GhicitoareDoctor.unity
+    guid: 0adbba5097b032046ae8162d684874dc
+  - enabled: 1
+    path: Assets/Scenes/GhicitoarePolitist.unity
+    guid: 081d288876b58454a89270bedf102611
+  - enabled: 1
+    path: Assets/Scenes/GhicitoareBucatar.unity
+    guid: 48590cc4efff7a34998836912fac84a5
   m_configObjects: {}

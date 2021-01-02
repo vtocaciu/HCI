@@ -6,9 +6,11 @@ using UnityEngine.SceneManagement;
 public class PolitistTime : MonoBehaviour
 {
     // Start is called before the first frame update
+    
+
     void Start()
     {
-        StartCoroutine(DelayLoadScene(3));
+        StartCoroutine(DelayLoadScene(9));
     }
 
     public IEnumerator DelayLoadScene(float seconds)
@@ -17,9 +19,10 @@ public class PolitistTime : MonoBehaviour
         do
         {
             yield return new WaitForSeconds(1);
+            
         } while (--secondsLeft > 0);
 
-        SceneManager.LoadScene("IntroScene");
+        SceneManager.LoadScene("SectiePolitieScene");
     }
 
     // Update is called once per frame

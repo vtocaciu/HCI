@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-public class BucatarGoodAnswer : MonoBehaviour
+public class ChoosePompierGoodAnswer : MonoBehaviour
 {
     public AudioSource myFx;
     public AudioClip clickFx;
@@ -23,7 +23,7 @@ public class BucatarGoodAnswer : MonoBehaviour
             yield return new WaitForSeconds(1);
         } while (--secondsLeft > 0);
 
-        SceneManager.LoadScene("ChoosePompierGame");
+        SceneManager.LoadScene("GhicitoareDoctor");
 
     }
 }
