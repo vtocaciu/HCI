@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-public class GhicitoareBucatarGoodAnswer : MonoBehaviour
+public class GhicitoareDoctorGoodAnswer : MonoBehaviour
 {
     public AudioSource myFx;
     public AudioClip clickFx;
@@ -24,7 +24,7 @@ public class GhicitoareBucatarGoodAnswer : MonoBehaviour
             yield return new WaitForSeconds(1);
         } while (--secondsLeft > 0);
 
-        SceneManager.LoadScene("OutroScene");
+        SceneManager.LoadScene("ChooseBucatarGame");
 
     }
 }

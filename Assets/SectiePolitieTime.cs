@@ -66,7 +66,7 @@ public class SectiePolitieTime : MonoBehaviour
             }
         } while (--secondsLeft > 0);
 
-        SceneManager.LoadScene("DoctorScene");
+        SceneManager.LoadScene("PompierScene");
     }
 
     // Update is called once per frame

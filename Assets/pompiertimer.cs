@@ -1,19 +1,14 @@
-﻿
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
-public class GhicitoareBucatarGoodAnswer : MonoBehaviour
+public class pompiertimer : MonoBehaviour
 {
-    public AudioSource myFx;
-    public AudioClip clickFx;
-
-    public void ClickSound()
+    // Start is called before the first frame update
+    void Start()
     {
-        myFx.PlayOneShot(clickFx);
-        StartCoroutine(DelayLoadScene(4));
+        StartCoroutine(DelayLoadScene(9));
     }
 
     public IEnumerator DelayLoadScene(float seconds)
@@ -24,7 +19,12 @@ public class GhicitoareBucatarGoodAnswer : MonoBehaviour
             yield return new WaitForSeconds(1);
         } while (--secondsLeft > 0);
 
-        SceneManager.LoadScene("OutroScene");
+        SceneManager.LoadScene("SectiePompierScene");
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
 
     }
 }

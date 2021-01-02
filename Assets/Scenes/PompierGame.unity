@@ -570,8 +570,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 113.5, y: 140.3}
-  m_SizeDelta: {x: 641.6219, y: 333.93738}
+  m_AnchoredPosition: {x: 197.2, y: 132.8}
+  m_SizeDelta: {x: 849.08307, y: 428.93732}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1679636064
 MonoBehaviour:
@@ -804,8 +804,8 @@ GameObject:
   - component: {fileID: 1924761933}
   - component: {fileID: 1924761932}
   - component: {fileID: 1924761937}
-  - component: {fileID: 1924761936}
   - component: {fileID: 1924761935}
+  - component: {fileID: 1924761936}
   m_Layer: 5
   m_Name: UstensileCorecte
   m_TagString: Untagged
@@ -829,8 +829,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 113.5, y: -128}
-  m_SizeDelta: {x: 590.62006, y: 340.6578}
+  m_AnchoredPosition: {x: 201.97, y: -128}
+  m_SizeDelta: {x: 818.55194, y: 340.6578}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1924761932
 MonoBehaviour:
@@ -949,7 +949,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1924761930}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e090e479c7bb3d34eaee33a72dac6440, type: 3}
+  m_Script: {fileID: 11500000, guid: 9755a6074e46db940b00a44b99e0a734, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myFx: {fileID: 1924761937}
