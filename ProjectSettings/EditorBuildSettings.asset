@@ -54,6 +54,12 @@ EditorBuildSettings:
     path: Assets/Scenes/GhicitoareBucatar.unity
     guid: 48590cc4efff7a34998836912fac84a5
   - enabled: 1
+    path: Assets/Scenes/2UnelteDoctor.unity
+    guid: d7d26782f0dc698488cb217b8a243cd7
+  - enabled: 1
+    path: Assets/Scenes/3UneltePolitist.unity
+    guid: 648df7a7614625f43b0b6ac6959e1951
+  - enabled: 1
     path: Assets/Scenes/OutroScene.unity
     guid: 9590e0c1ba8a5ac4eac6fc83ac4dc55d
   m_configObjects: {}

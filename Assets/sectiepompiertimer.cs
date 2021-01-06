@@ -28,7 +28,7 @@ public class sectiepompiertimer : MonoBehaviour
         GameObject.Find("patrat-manusi").SetActive(false);
         GameObject.Find("patrat-cizme").SetActive(false);
         GameObject.Find("patrat-masca").SetActive(false);
-        StartCoroutine(DelayLoadScene(10));
+        StartCoroutine(DelayLoadScene(13));
     }
 
     public IEnumerator DelayLoadScene(float seconds)
@@ -39,26 +39,26 @@ public class sectiepompiertimer : MonoBehaviour
         do
         {
             yield return new WaitForSeconds(1);
-            if(secondsLeft == 7.0){
+            if(secondsLeft == 10.0){
                 patratfurtun.SetActive(true);
             }
-            if(secondsLeft == 6.0){
+            if(secondsLeft == 9.0){
                 patratfurtun.SetActive(false);
                 patratcasca.SetActive(true);
             }
-            if (secondsLeft == 5.0){
+            if (secondsLeft == 7.0){
                 patratcasca.SetActive(false);
                 patratextinctor.SetActive(true);
             }
-            if(secondsLeft == 4.0){
+            if(secondsLeft == 6.0){
                 patratextinctor.SetActive(false);
                 patratmanusi.SetActive(true);
             }
-            if(secondsLeft == 3.0){
+            if(secondsLeft == 4.0){
                 patratmanusi.SetActive(false);
                 patratcizme.SetActive(true);
             }
-            if(secondsLeft == 2.0){
+            if(secondsLeft == 3.0){
                 patratcizme.SetActive(false);
                 patratmasca.SetActive(true);
             }

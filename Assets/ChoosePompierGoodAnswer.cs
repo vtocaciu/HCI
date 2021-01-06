@@ -23,7 +23,7 @@ public class ChoosePompierGoodAnswer : MonoBehaviour
             yield return new WaitForSeconds(1);
         } while (--secondsLeft > 0);
 
-        SceneManager.LoadScene("GhicitoareDoctor");
+        SceneManager.LoadScene("3UneltePolitist");
 
     }
 }
